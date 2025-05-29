@@ -20,7 +20,7 @@ class User(Base):
 
     @property
     def password(self) -> str:
-        """ Getter of the password
+        """ password getter
         """
         return self._password
 

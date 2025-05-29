@@ -35,7 +35,7 @@ elif AUTH_TYPE == "session_db_auth":
 
 @ app.errorhandler(404)
 def not_found(error) -> str:
-    """ Not found handler
+    """ handler of not found
     """
     return jsonify({"error": "Not found"}), 404
 

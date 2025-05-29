@@ -46,8 +46,8 @@ def forbidden_error(error) -> str:
 
 @app.before_request
 def before_request() -> str:
-    """ Before Request Handler
-    Requests Validation
+    """ Request Handler
+    Requests Validations
     """
     if auth is None:
         return
