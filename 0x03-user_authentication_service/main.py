@@ -10,7 +10,7 @@ NEW_PASSWD = "t4rt1fl3tt3"
 
 
 def register_user(email: str, password: str) -> None:
-    """ Test for validating user registration """
+    """ validation test  user registration """
     data = {
         "email": email,
         "password": password
